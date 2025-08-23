@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    
+}
+
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400px;
+  font-size: 56px;
+  font-style: normal;
+}
+h2 {
+    font-family: "open sans", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    font-style: extra-bold;
+    
+}
+p {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+}
+
+
+header {
+    height: 459px;
+    background-image: url('/assets/images/header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+#secao-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    min-width: 350px;
+}
+
+#botoes {
+    gap:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.btn-primary {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #23272A;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.btn-secondary {
+    text-decoration: none;
+    background-color: #23272A;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+    
+
+/* estilizando o corpo secoes */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section {
+    /* border: 2px solid #b30950; */
+    /* box-sizing: border-box; */
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+/* estilizando as imagens */
+ .imagem {
+    /* border: 2px solid #23272A; */
+    
+    display: flex;
+    min-width: 300px;
+    max-width: 40%;
+ }
+ .img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    
+ }
+ /* estilizando o texto */
+ .paragrafo {
+    /* border: 2px solid #a3a30f; */
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 40%;
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #23272A;
+    height: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
